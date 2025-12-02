@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-         ghcr.io/mowmitayasmin/module_6_part3-studentportfolio:latest
+          image: ghcr.io/mowmitayasmin/module_6_part3-studentportfolio:984a3d83c87de7418bb35831be36d3db942d593a
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

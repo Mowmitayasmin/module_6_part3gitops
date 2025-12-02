@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/mowmitayasmin/module_6_part3-backend:99dacb49d1e1303244a943d62b3acc996899a277
+          image: ghcr.io/mowmitayasmin/module_6_part3-backend:984a3d83c87de7418bb35831be36d3db942d593a
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
